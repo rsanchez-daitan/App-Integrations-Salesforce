@@ -16,7 +16,7 @@
 
 package org.symphonyoss.integration.webhook.salesforce;
 
-import com.symphony.api.pod.model.V1Configuration;
+import org.symphonyoss.integration.service.model.Configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -60,7 +60,7 @@ public class SalesforceWebHookIntegration extends WebHookIntegration {
   }
 
   @Override
-  public void onConfigChange(V1Configuration conf) {
+  public void onConfigChange(Configuration conf) {
     super.onConfigChange(conf);
 
     for (SalesforceParser parsers : salesforceParserBeans) {

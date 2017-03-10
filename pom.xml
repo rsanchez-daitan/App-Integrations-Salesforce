@@ -21,6 +21,11 @@
         </license>
     </licenses>
 
+    <properties>
+        <webapp.directory>salesforce</webapp.directory>
+        <rpm.name>salesforce-symphony-integration</rpm.name>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.symphonyoss</groupId>

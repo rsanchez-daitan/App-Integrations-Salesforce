@@ -5,3 +5,5 @@ applications:
     description: "Salesforce is a customer relationship management tool that allows sales teams to manage contacts and track opportunities. This integration will allow you to receive customized notifications when opportunities are created or updated in Salesforce."
     publisher: Symphony
     context: salesforce
+    keystore:
+      password: ${KEYSTORE_PASS}
